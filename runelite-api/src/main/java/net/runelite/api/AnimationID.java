@@ -364,4 +364,27 @@ public final class AnimationID
 	public static final int PRAY_AT_ALTAR = 645;
 	public static final int ENSOULED_HEADS_ANIMATION = 7198;
 
+	// The Nightmare of Ashihama
+	public static final int NIGHTMARE_SPAWN_SLEEPWALKERS = 8572;
+	public static final int NIGHTMARE_FLOATY = 8592;
+	public static final int NIGHTMARE_WALKING = 8592;
+	public static final int NIGHTMARE_IDLE = 8593;
+	public static final int NIGHTMARE_MELEE_ATTACK = 8594;
+	public static final int NIGHTMARE_MAGIC_ATTACK = 8595;
+	public static final int NIGHTMARE_RANGED_ATTACK = 8596;
+	public static final int NIGHTMARE_SURGE_ATTACK = 8597;
+	public static final int NIGHTMARE_GHOST_AOE_ATTACK = 8598;
+	public static final int NIGHTMARE_CURSE_PRAYERS_ATTACK = 8599;
+	public static final int NIGHTMARE_SPAWN_INFECTIOUS_SPORES = 8600;
+	public static final int NIGHTMARE_SPAWN_ROOM_SECTION_FLOWERS = 8601;
+	public static final int NIGHTMARE_CHANNEL_DEVASTATING_ATTACK = 8604;
+	public static final int NIGHTMARE_SWITCH_TO_DEVIL_PHASE = 8605;
+	public static final int NIGHTMARE_PARASITE_ATTACK = 8606;
+	public static final int NIGHTMARE_JUMP_DOWN = 8607;
+	public static final int NIGHTMARE_SINK_DOWN = 8608;
+	public static final int NIGHTMARE_JUMP_UP = 8609;
+	public static final int NIGHTMARE_JUMP_UP_2 = 8610;
+	public static final int NIGHTMARE_WAKE_UP = 8611;
+	public static final int NIGHTMARE_DEATH = 8612;
+
 }

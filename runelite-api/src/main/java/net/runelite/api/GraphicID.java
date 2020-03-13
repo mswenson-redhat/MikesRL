@@ -58,4 +58,8 @@ public class GraphicID
 	public static final int OLM_CRYSTAL = 1447;
 	public static final int XERIC_TELEPORT = 1612;
 	public static final int HYDRA_LIGHTNING = 1666;
+
+	// The Nightmare of Ashihama
+	public static final int NIGHTMARE_GHOST_ATTACK = 1767;
+
 }
