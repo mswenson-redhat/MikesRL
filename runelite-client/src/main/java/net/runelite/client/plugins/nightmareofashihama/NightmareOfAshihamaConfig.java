@@ -33,11 +33,26 @@ public interface NightmareOfAshihamaConfig extends Config
 		return 30;
 	}
 
+	@Range(
+			min = 50,
+			max = 300
+	)
+	@ConfigItem(
+			keyName = "currentAttackScaling",
+			name = "Icon Scaling",
+			description = "The scaling of the current attack icon that is display on The Nightmare",
+			position = 3
+	)
+	default int getCurrentAttackScaling()
+	{
+		return 100;
+	}
+
 	@ConfigItem(
 			keyName = "displayPrayersCursedTimer",
 			name = "Display prayers cursed timer",
 			description = "Displays a timer with the remaining duration of the prayers shuffle curse",
-			position = 3
+			position = 4
 	)
 	default boolean displayPrayersCursedTimer()
 	{
@@ -48,7 +63,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "notifyOnPrayersShuffled",
 			name = "Notify on prayers shuffled",
 			description = "Sends a notification when The Nightmare shuffles your prayers",
-			position = 4
+			position = 5
 	)
 	default boolean notifyOnPrayersShuffled()
 	{
@@ -59,7 +74,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "notifyOnParasite",
 			name = "Notify on parasite",
 			description = "Sends a notification when a parasite impregnates you",
-			position = 5
+			position = 6
 	)
 	default boolean notifyOnParasite()
 	{
@@ -70,7 +85,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "notifyOnDrowsy",
 			name = "Notify on drowsy",
 			description = "Sends a notification when you get affected by the drowsy effect",
-			position = 6
+			position = 7
 	)
 	default boolean notifyOnDrowsy()
 	{
@@ -81,7 +96,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "highlightActiveTotems",
 			name = "Highlight active totems",
 			description = "Highlight The Nightmare's totems when they are damageable",
-			position = 7
+			position = 8
 	)
 	default boolean highlightActiveTotems()
 	{
@@ -93,7 +108,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "activeTotemColor",
 			name = "Active totem color",
 			description = "Color of The Nightmare's active totems",
-			position = 8
+			position = 9
 	)
 	default Color getActiveTotemColor()
 	{
@@ -104,7 +119,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "highlightGhostAttackTiles",
 			name = "Highlight ghost attack tiles",
 			description = "Highlight the tiles for The Nightmare's ghost attacks",
-			position = 9
+			position = 10
 	)
 	default boolean highlightGhostAttackTiles()
 	{
@@ -116,7 +131,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "ghostAttackColor",
 			name = "Ghost attack marker",
 			description = "Color of The Nightmare's ghost attack marker",
-			position = 10
+			position = 11
 	)
 	default Color getGhostAttackColor()
 	{
@@ -127,7 +142,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "highlightInfectiousSpores",
 			name = "Highlight infectious spores",
 			description = "Highlight the tiles for The Nightmare's infectious spores",
-			position = 11
+			position = 12
 	)
 	default boolean highlightInfectiousSpores()
 	{
@@ -139,7 +154,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "infectiousSporesColor",
 			name = "Infectious spore marker",
 			description = "Color of The Nightmare's infectious spore tile marker",
-			position = 12
+			position = 13
 	)
 	default Color getInfectiousSporesColor()
 	{
@@ -150,7 +165,7 @@ public interface NightmareOfAshihamaConfig extends Config
 			keyName = "showDebugOverlay",
 			name = "Display debug overlay",
 			description = "Displays plugin debug overlay. This displays variables that the plugin uses to function",
-			position = 13
+			position = 14
 	)
 	default boolean showDebugOverlay()
 	{
